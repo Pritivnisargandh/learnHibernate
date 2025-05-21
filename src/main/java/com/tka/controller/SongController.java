@@ -11,6 +11,7 @@ public class SongController {
 		System.out.println(
 				"Enter a choice \n1.AddSong \n2.UpdateSong \n3.deleteSong \n4.viewAllsongs \n5.GetSongByid \n6.setSongByName");
 		int choice = sc.nextInt();
+		System.out.println("Hello");
 		switch (choice) {
 		case 1:
 			System.out.println("Enter a SongId,name,Singer");
